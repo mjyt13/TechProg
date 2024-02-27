@@ -1,0 +1,14 @@
+D:\учёба 2\техпрог\AbstractDataType\AbstractDataType\bin\Debug\net8.0\AbstractDataType.exe
+D:\учёба 2\техпрог\AbstractDataType\AbstractDataType\bin\Debug\net8.0\AbstractDataType.deps.json
+D:\учёба 2\техпрог\AbstractDataType\AbstractDataType\bin\Debug\net8.0\AbstractDataType.runtimeconfig.json
+D:\учёба 2\техпрог\AbstractDataType\AbstractDataType\bin\Debug\net8.0\AbstractDataType.dll
+D:\учёба 2\техпрог\AbstractDataType\AbstractDataType\bin\Debug\net8.0\AbstractDataType.pdb
+D:\учёба 2\техпрог\AbstractDataType\AbstractDataType\obj\Debug\net8.0\AbstractDataType.GeneratedMSBuildEditorConfig.editorconfig
+D:\учёба 2\техпрог\AbstractDataType\AbstractDataType\obj\Debug\net8.0\AbstractDataType.AssemblyInfoInputs.cache
+D:\учёба 2\техпрог\AbstractDataType\AbstractDataType\obj\Debug\net8.0\AbstractDataType.AssemblyInfo.cs
+D:\учёба 2\техпрог\AbstractDataType\AbstractDataType\obj\Debug\net8.0\AbstractDataType.csproj.CoreCompileInputs.cache
+D:\учёба 2\техпрог\AbstractDataType\AbstractDataType\obj\Debug\net8.0\AbstractDataType.dll
+D:\учёба 2\техпрог\AbstractDataType\AbstractDataType\obj\Debug\net8.0\refint\AbstractDataType.dll
+D:\учёба 2\техпрог\AbstractDataType\AbstractDataType\obj\Debug\net8.0\AbstractDataType.pdb
+D:\учёба 2\техпрог\AbstractDataType\AbstractDataType\obj\Debug\net8.0\AbstractDataType.genruntimeconfig.cache
+D:\учёба 2\техпрог\AbstractDataType\AbstractDataType\obj\Debug\net8.0\ref\AbstractDataType.dll
