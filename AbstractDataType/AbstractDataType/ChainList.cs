@@ -9,6 +9,27 @@ public class ChainList
         count = 0;
     }
 
+    public int this[int i]
+    {
+        set {
+            if (i > count || i < 0)
+            {
+
+            }
+            else
+            {
+                find(i).Data = value;
+            }
+        }
+        get {
+                if (i >= count || i < 0)
+                {
+                    return -1;
+                }
+                else { return find(i).Data; }
+        }       
+    }
+
     private Node find(int pos)
     {
         if (pos >= count || pos<0)
@@ -54,7 +75,7 @@ public class ChainList
     {
         if(pos<0 || pos > count)
         {
-            Console.WriteLine("Insert ChainList Impossible");
+            
         }
         else
         {
@@ -83,7 +104,7 @@ public class ChainList
     {
         if(count==0 || pos>=count)
         {
-            Console.WriteLine("Delete ChainList Impossible");
+            
         }
         else
         {
@@ -97,11 +118,6 @@ public class ChainList
                 Node preNode = find(pos - 1);
                 preNode.Next = preNode.Next.Next;
             }
-            /*if (pos > 0 && pos < count-1)
-            {
-                find(pos - 1).Next = find(pos + 1);
-                //find(pos).Next = null;
-            }*/
             count--;
         }
     }

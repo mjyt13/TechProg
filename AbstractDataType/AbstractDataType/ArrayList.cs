@@ -8,7 +8,7 @@
         get { return count; } 
     }
 
-    int this[int i]
+    public int this[int i]
     {   set 
         { if (i > count || i < 0)
             {
@@ -19,7 +19,7 @@
             }
         }
         get 
-        {if (i > count || i < 0)
+        {if (i >= count || i < 0)
             {
                 return -1;
             }
@@ -28,8 +28,8 @@
     }
 
     public ArrayList() 
-    {      
-        buffer = new int [1];
+    {
+        buffer = null;
         count = 0;
     }
     
@@ -37,35 +37,38 @@
     {
         if (index < 0 || index > count)
         {
-            Console.WriteLine("Insert ArrayList Impossible");
+
         }
         else
         {
             Expand();
-            for(int i = count; i > index; i--)
+            for (int i = count; i > index; i--)
             {
                 buffer[i] = buffer[i - 1];
             }
             buffer[index] = num;
             count++;
         }
-
     }
 
-    public void Delete(int index)//vniamnie
+    public void Delete(int index)
     {
-        if (index < 0 || index >= count)
+        if (index < 0 || index >= count || count==0)
         {
-            Console.WriteLine("Delete ArrayList Impossible");
+            
         }
         else
         {
-            for(int i = index; i < count-1; i++)
+            if (count == 1) 
             {
-                buffer[i] = buffer[i + 1];
+                Clear();
             }
+            else 
+            {
+            for (int i = index; i < count - 1; i++) { buffer[i] = buffer[i + 1]; }
             buffer[count - 1] = 0;
             count--;
+            }      
         }
     }
     public void Add(int num) 
@@ -79,13 +82,12 @@
     {
         count = 0;
         buffer = null;
-        buffer = new int[1];
     }
 
     private void Expand()
-    {   
-        if (count == this.buffer.Length)
-            {
+    {
+        if (buffer != null)
+        {
             int[] buffer = new int[count * 2];
             for (int i = 0; i < count; i++)
             {
@@ -93,13 +95,14 @@
             }
             this.buffer = buffer;
         }
+        else buffer = new int[1];
     }
     
     public void Print()
     {
-        for (int i = 0; i < count; i++)
+        if (buffer != null)
         {
-            Console.WriteLine(buffer[i]);
+            for (int i = 0; i < count; i++) Console.WriteLine(buffer[i]);
         }
     }
 }
