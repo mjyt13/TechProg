@@ -67,12 +67,12 @@ internal class Prog
                     ArList.Delete(position);
                     break;
                 case 4:
-                    ChList.Clear();
-                    ArList.Clear();
+                    //ChList.Clear();
+                    //ArList.Clear();
                     break;
                 case 5:
-                    Console.WriteLine(ChList[position]);
-                    Console.WriteLine(ArList[position]);
+                    ChList[position] = number;
+                    ArList[position] = number;
                     break;
             }
         }
