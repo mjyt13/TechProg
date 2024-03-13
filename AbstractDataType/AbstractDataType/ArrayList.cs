@@ -10,7 +10,7 @@
 
     public int this[int i]
     {   set 
-        { if (i > count || i < 0)
+        { if (i >= count || i < 0)
             {
                 
             }else 
