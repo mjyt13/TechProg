@@ -1,0 +1,14 @@
+D:\учёба 2\техпрог\BaseList\BaseList\bin\Debug\net8.0\BaseList.exe
+D:\учёба 2\техпрог\BaseList\BaseList\bin\Debug\net8.0\BaseList.deps.json
+D:\учёба 2\техпрог\BaseList\BaseList\bin\Debug\net8.0\BaseList.runtimeconfig.json
+D:\учёба 2\техпрог\BaseList\BaseList\bin\Debug\net8.0\BaseList.dll
+D:\учёба 2\техпрог\BaseList\BaseList\bin\Debug\net8.0\BaseList.pdb
+D:\учёба 2\техпрог\BaseList\BaseList\obj\Debug\net8.0\BaseList.GeneratedMSBuildEditorConfig.editorconfig
+D:\учёба 2\техпрог\BaseList\BaseList\obj\Debug\net8.0\BaseList.AssemblyInfoInputs.cache
+D:\учёба 2\техпрог\BaseList\BaseList\obj\Debug\net8.0\BaseList.AssemblyInfo.cs
+D:\учёба 2\техпрог\BaseList\BaseList\obj\Debug\net8.0\BaseList.csproj.CoreCompileInputs.cache
+D:\учёба 2\техпрог\BaseList\BaseList\obj\Debug\net8.0\BaseList.dll
+D:\учёба 2\техпрог\BaseList\BaseList\obj\Debug\net8.0\refint\BaseList.dll
+D:\учёба 2\техпрог\BaseList\BaseList\obj\Debug\net8.0\BaseList.pdb
+D:\учёба 2\техпрог\BaseList\BaseList\obj\Debug\net8.0\BaseList.genruntimeconfig.cache
+D:\учёба 2\техпрог\BaseList\BaseList\obj\Debug\net8.0\ref\BaseList.dll
